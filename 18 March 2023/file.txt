@@ -1,0 +1,16 @@
+1. Java Database Connectivity (JDBC) :
+                          is an application programming interface (API) for the Java programming language, which defines how a client may access a database.
+2. JDBC-- Java Database Connectivity Driver Type1-- JDBC ODBC driver
+->Java Native API
+Nw protocol driver
+Oracle thin driver Steps 1 Load the driver
+-->create connection
+   generate statement
+   exec queries n hold the result
+    close connection Class.forName()
+DriverManager.getConnection
+Connection.createStatement
+Resultset.next
+import java.sql Statement // sql queries
+PreparedStatement // param queries
+CallableStatement // stored procedures
