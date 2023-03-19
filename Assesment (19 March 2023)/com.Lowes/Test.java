@@ -1,5 +1,5 @@
 package com.Lowes;
 
-public class Product {
+public class Test {
 
 }
